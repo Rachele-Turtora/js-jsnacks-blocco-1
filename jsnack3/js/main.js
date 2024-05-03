@@ -1,12 +1,11 @@
-"use strict"
+"use strict";
 
-let somma = 0
+let somma = 0;
 
 for (let i = 0; i < 10; i++) {
-    let numero = prompt("digita un numero")
-    numero = Number(numero)
-    console.log("Hai digitato: ", numero)
-    somma += numero
+    let numero = Number(prompt("digita un numero"));
+    console.log("Hai digitato: ", numero);
+    somma += numero;
 }
 
-console.log("La somma è: ", somma)
+console.log("La somma è: ", somma);
