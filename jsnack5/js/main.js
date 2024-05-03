@@ -3,9 +3,11 @@ Chiedi per 6 volte all’utente di inserire un numero,
 Se è dispari inseriscilo nell’array.
 Stampa in console l'array risultante.*/
 
+"use strict";
+
 let numbers = [];
 
-for (i = 1; i <= 6; i++) {
+for (let i = 1; i <= 6; i++) {
 
     const number = Number(prompt(`${i} di 6 - Inserisci un numero`));
 
