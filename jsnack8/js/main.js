@@ -10,10 +10,13 @@ const number = prompt("Inserisci un numero di quattro cifre");
 if (!isNaN(Number(number))) {
 
     if (number.length == 4) {
+
         for (let i = 0; i < 4; i++) {
-            somma += Number(number[i]);
+            somma += parseInt(number[i]);
         }
+
         console.log("La somma delle cifre è ", somma);
+
     } else {
         console.log("Inserisci un numero di quattro cifre");
     }

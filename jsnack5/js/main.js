@@ -5,7 +5,7 @@ Stampa in console l'array risultante.*/
 
 "use strict";
 
-let numbers = [];
+const result = [];
 
 for (let i = 1; i <= 6; i++) {
 
@@ -15,7 +15,7 @@ for (let i = 1; i <= 6; i++) {
         console.log("Hai digitato: ", number);
 
         if (number % 2 !== 0) {
-            numbers.push(number);
+            result.push(number);
         }
 
     } else {
@@ -25,4 +25,4 @@ for (let i = 1; i <= 6; i++) {
     
 }
 
-console.log(numbers);
+console.log(result);

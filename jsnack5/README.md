@@ -1,4 +1,4 @@
-- creo un array vuoto
+- creo una variabile che contiene un array vuoto
 
 - ciclo per 6 volte chiedendo all'utente un numero
     - se l'utente inserisce un numero:
